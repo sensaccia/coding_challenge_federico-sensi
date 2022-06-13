@@ -1,0 +1,93 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    height: 650px;
+    border-radius: 2%;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+header{
+    text-align: center;
+    margin-top: 5vh;
+    padding-top: 7vh;
+}
+
+h2{
+    margin-bottom: 5px;
+    color: #00DD00;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    width: 200px;
+}
+
+nav{
+    width: 830px;
+    height: 40px;
+    margin-left: 10vh;
+    background-color: #00DD00;
+    text-align: center;
+}
+
+button{
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: grey;
+    opacity: 0.9;
+}
+
+.monopattino{
+    display: flex;
+    margin-left: 9vh;
+}
+
+h3, input{
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.8;
+}
+
+p {
+    color: white;
+    margin-left: 13vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+}
+
+#uno{
+    width: 300px;
+    height: 25px;
+    background-color: darkorange;
+    margin-left: 13vh;
+}
+
+#due{
+    width: 490px;
+    height: 25px;
+    background-color: green;
+    margin-left: 13vh;
+}
+
+#tre{
+    width: 120px;
+    height: 25px;
+    background-color: darkred;
+    margin-left: 13vh;
+}
+
+#uno, #due, #tre{
+    margin-top: 5px;
+    border-radius: 5px;
+}
